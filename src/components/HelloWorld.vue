@@ -8,7 +8,7 @@
         <div class="selection">
           <a href="https://studentutsedu-my.sharepoint.com/:w:/g/personal/14123032_student_uts_edu_au/EaVCe-fgqhhBhLxHkPXR_fEBFw2fuEeEWaQp6VjxoMc8oA?e=O47IDE" target="_blank" rel="noopener">Resume</a>
         </div>
-        <div class = "topName">
+        <div class ="topName">
           George Hetrelezis
         </div>
         <div class="selection">
@@ -40,7 +40,7 @@
       </div>
       <div class="interlude">
           <div class="arrow">
-           <a href="#linktodiv1"></a><img src="../assets/down.png" class="arrow">
+           <img src="../assets/down.png" class="arrow">
           </div>
           <div class="arrow" id="linktodiv1">
             <img src="../assets/up.png" class="arrow" >
@@ -75,10 +75,10 @@
       </div>
       <div class="title">
           Projects
-        </div>
+      </div>
       <div class="projects">
         <div class="projectBody">
-          <div class="projectBody>
+          <div class="projectBody">
             <div class="project-picture-1" >
               <img src="../assets/robots.png" class="project-picture-1">
             </div>
@@ -91,7 +91,7 @@
               and easy to implement components.<br>
             </div>
           </div>
-          <div class="project-2>
+          <div class="project-2">
             <div class="aboutPicture" >
               <img src="../assets/sage.png" class="project-picture-2">
             </div>
@@ -109,6 +109,7 @@
           </div>
         </div>
     </div>
+  </div>
   </div>
 </template>
 
