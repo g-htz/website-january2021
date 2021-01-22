@@ -79,7 +79,7 @@
       <div class="projects">
         <div class="projectBody">
           <div class="projectBody>
-            <div class="project-picture-1">
+            <div class="project-picture-1" >
               <img src="../assets/robots.png" class="project-picture-1">
             </div>
             <div class="project-bio">
@@ -92,7 +92,7 @@
             </div>
           </div>
           <div class="project-2>
-            <div class="aboutPicture">
+            <div class="aboutPicture" >
               <img src="../assets/sage.png" class="project-picture-2">
             </div>
             <div class="project-bio">
