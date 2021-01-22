@@ -3,18 +3,19 @@
     <div class="header">
       <div class="menu">
         <div class="selection">
-          Home
+          <a href="https://georgehetrelezisvue.netlify.app" rel="noopener">Home</a>
         </div>
-        <div class="selection"><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">Resume</a>
+        <div class="selection">
+          <a href="https://studentutsedu-my.sharepoint.com/:w:/g/personal/14123032_student_uts_edu_au/EaVCe-fgqhhBhLxHkPXR_fEBFw2fuEeEWaQp6VjxoMc8oA?e=O47IDE" target="_blank" rel="noopener">Resume</a>
         </div>
-        <div class="topName">
+        <div class = "topName">
           George Hetrelezis
         </div>
         <div class="selection">
-          Projects
+          About
         </div>
         <div class="selection">
-          About
+          Projects
         </div>
       </div>
       <div class="george">
@@ -72,19 +73,40 @@
             <img src="../assets/up.png" class="arrow" >
           </div>
       </div>
-      <div class="projects">
-        <div class="title">
+      <div class="title">
           Projects
         </div>
+      <div class="projects">
         <div class="projectBody">
-          <div class="project-icons">
-            <img src="../assets/robots.png" class="project-icons">
+          <div class="projectBody>
+            <div class="project-picture-1">
+              <img src="../assets/robots.png" class="project-picture-1">
+            </div>
+            <div class="project-bio">
+              Robots with React<br>
+              <br>
+              I completed this application in August 2020, and it has taught me quite <br>
+              a bit about using React to create quality websitesI definitely recommend using <br>
+              React for your business needs or personal portfolio due to its extensive nature <br>
+              and easy to implement components.<br>
+            </div>
           </div>
-          <div class="project-icons">
-            <img src="../assets/sage.png" class="project-icons">
+          <div class="project-2>
+            <div class="aboutPicture">
+              <img src="../assets/sage.png" class="project-picture-2">
+            </div>
+            <div class="project-bio">
+              Adobe XD (Sage)<br>
+              <br>
+              My peers and I are currently creating the user interface <br> 
+              for a smartphone application for an Interaction Design based <br> 
+              assessment on Adobe XD. The application allows you to find the <br>
+              latest technology for your business's needs, and chat with an expert <br>
+               who can direct you and improve your current recommendations based on <br>
+               your situation.
+              <br>
+            </div>
           </div>
-          
-        </div>
         </div>
     </div>
   </div>
@@ -101,6 +123,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+a {
+  color: inherit;
+  text-decoration: none;
+}
 .aboutPicture {
   align-items: center;
   display: flex;
@@ -110,8 +136,7 @@ export default {
 }
 .arrow {
   padding-top: 7px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 318px;
   width: 20%;
 }
 .bio {
@@ -123,7 +148,8 @@ export default {
 .george {
   align-items: center;
   display: flex;
-  padding-top: 125px;
+  padding-top: 80px;
+  padding-bottom: 40px;
   vertical-align: middle;
 }
 .h3 {
@@ -148,50 +174,55 @@ export default {
   width: 90%;
 }
 .menu {
-  flex: 1;
-  align-items: center;
-  border-bottom: 2px solid #ffffff;
   color: #ffffff;
-  cursor: pointer;
   display: flex;
-  justify-content: center;
+  padding-left: 100px;
   padding-top: 20px;
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-  width: 100%;
+  text-align: justify;
 }
 .myAbout {
   
 }
-a {
-  color: inherit;
-  text-decoration: none;
-}
 .projectBody {
+  align-items: center;
   background-color: #000000;
   display: flex;
-  padding-bottom: 275px;
 }
-.project-icons {
-  padding-right: 50px;
-  width: 60%;
+.projects {
+  display: flex;
+}
+.project-bio {
+  color: #ffffff;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 25px;
+  margin-right: 35px;
+  margin-left: 8px;
+}
+.project-picture-1 {
+  display: flex;
+  width: 80%;
+}
+.project-picture-2 {
+  align-items: center;
+  display: flex;
+  padding-left: 20px;
+  padding-top: 15px;
+  width: 32%;
 }
 .selection {
-  flex: 1;
   align-items: center;
   border-bottom: 2px solid #ffffff;
   color: #ffffff;
-  cursor: pointer;
   display: flex;
   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-  justify-content: center;
-  text-align: center;
-  width: 10%;
+  margin-right: 155px;
   
 }
 .topName {
   color: #ffffff;
   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 40px;
+  margin-right: 80px;
 }
 .title {
   background-color: #000000;
@@ -199,7 +230,7 @@ a {
   display: flex;
   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 50px;
-  padding-left: 85px;
+  padding-left: 50px;
   text-align: left;
 }
 .titleBody {

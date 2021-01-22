@@ -1,4 +1,4 @@
-# vuejan21
+# Georgehetrelezis
 
 ## Project setup
 ```
